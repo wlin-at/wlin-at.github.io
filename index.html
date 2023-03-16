@@ -282,6 +282,47 @@
             </td>
           </tr> 
           
+         <tr onmouseout="cycdaex_stop()" onmouseover="cycdaex_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='cycdaex_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="dummy" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images_lin/cycda_screenshot.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function cycdaex_start() {
+                  document.getElementById('cycdaex_image').style.opacity = "1";
+                }
+
+                function cycdaex_stop() {
+                  document.getElementById('cycdaex_image').style.opacity = "0";
+                }
+                cycdaex_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Extended Abstract CycDA: Unsupervised Cycle Domain Adaptation to Learn from Image to Video</papertitle>
+              <br>
+              <strong>Wei Lin</strong>,
+              <a href="https://annusha.github.io/">Anna Kukleva</a>,
+              <a href="https://www.researchgate.net/profile/Kunyang-Sun">Kunyang Sun</a>, <br>
+              <a href="https://snototter.github.io/research/">Horst Possegger</a>, 
+              <a href="https://hildekuehne.github.io/">Hilde Kuehne</a>,
+              <a href="https://www.tugraz.at/institute/icg/research/team-bischof/people/team-about/horst-bischof">Horst Bischof</a>
+              <br>
+        <em>ECCV Workshop of Out Of Distribution Generalization in Computer Vision</em>, 2022
+              <br>
+              <a href="http://www.ood-cv.org/camera-ready/2/CycDA_Out_of_distribution_generalization_workshop_lin.pdf">paper</a>
+        /
+              <a href="https://github.com/wlin-at/CycDA">code</a>
+        /
+              <a href="https://www.youtube.com/watch?v=0mUuhkL_3zM">video</a>
+              <p></p>
+            </td>
+          </tr> 
+          
          <tr onmouseout="taec_stop()" onmouseover="taec_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
