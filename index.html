@@ -106,6 +106,7 @@
         /
               video
               <p></p>
+              <p>Unsupervised finetuning of Vision-Language models for zero-shot and few-shot action recognition.</p>
             </td>
           </tr> 		
 			
@@ -199,7 +200,54 @@
           </tr> 
           
           
-         <tr onmouseout="mate_stop()" onmouseover="mate_start()">
+
+     
+     
+       <tr onmouseout="cycda_stop()" onmouseover="cycda_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='cycda_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images_lin/cycda_after.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images_lin/cycda_screenshot.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function cycda_start() {
+                  document.getElementById('cycda_image').style.opacity = "1";
+                }
+
+                function cycda_stop() {
+                  document.getElementById('cycda_image').style.opacity = "0";
+                }
+                cycda_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>CycDA: Unsupervised Cycle Domain Adaptation to Learn from Image to Video</papertitle>
+              <br>
+              <strong>Wei Lin</strong>,
+              <a href="https://annusha.github.io/">Anna Kukleva</a>,
+              <a href="https://www.researchgate.net/profile/Kunyang-Sun">Kunyang Sun</a>, <br>
+              <a href="https://snototter.github.io/research/">Horst Possegger</a>, 
+              <a href="https://hildekuehne.github.io/">Hilde Kuehne</a>,
+              <a href="https://www.tugraz.at/institute/icg/research/team-bischof/people/team-about/horst-bischof">Horst Bischof</a>
+              <br>
+        <em>ECCV</em>, 2022
+              <br>
+              <a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136630684.pdf">paper</a>
+        /
+              <a href="https://arxiv.org/abs/2203.16244">arxiv</a>
+        /
+              <a href="https://github.com/wlin-at/CycDA">code</a>
+        /
+              <a href="https://www.youtube.com/watch?v=0mUuhkL_3zM">video</a>
+              <p></p>
+              <p>Unsupervised image-to-video domain adaptation.</p>
+            </td>
+          </tr> 
+          
+                   <tr onmouseout="mate_stop()" onmouseover="mate_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='mate_image'><video  width=100% height=100% muted autoplay loop>
@@ -249,51 +297,6 @@
 
             </td>
           </tr> 
-     
-     
-       <tr onmouseout="cycda_stop()" onmouseover="cycda_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='cycda_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="images_lin/cycda_after.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images_lin/cycda_screenshot.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function cycda_start() {
-                  document.getElementById('cycda_image').style.opacity = "1";
-                }
-
-                function cycda_stop() {
-                  document.getElementById('cycda_image').style.opacity = "0";
-                }
-                cycda_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <papertitle>CycDA: Unsupervised Cycle Domain Adaptation to Learn from Image to Video</papertitle>
-              <br>
-              <strong>Wei Lin</strong>,
-              <a href="https://annusha.github.io/">Anna Kukleva</a>,
-              <a href="https://www.researchgate.net/profile/Kunyang-Sun">Kunyang Sun</a>, <br>
-              <a href="https://snototter.github.io/research/">Horst Possegger</a>, 
-              <a href="https://hildekuehne.github.io/">Hilde Kuehne</a>,
-              <a href="https://www.tugraz.at/institute/icg/research/team-bischof/people/team-about/horst-bischof">Horst Bischof</a>
-              <br>
-        <em>ECCV</em>, 2022
-              <br>
-              <a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136630684.pdf">paper</a>
-        /
-              <a href="https://arxiv.org/abs/2203.16244">arxiv</a>
-        /
-              <a href="https://github.com/wlin-at/CycDA">code</a>
-        /
-              <a href="https://www.youtube.com/watch?v=0mUuhkL_3zM">video</a>
-              <p></p>
-              <p>Unsupervised image-to-video domain adaptation.</p>
-            </td>
-          </tr> 
           
          <tr onmouseout="cycdaex_stop()" onmouseover="cycdaex_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -336,6 +339,48 @@
             </td>
           </tr> 
           
+         <tr onmouseout="airda_stop()" onmouseover="airda_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='airda_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images_lin/airda_after.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images_lin/airda_screenshot.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function airda_start() {
+                  document.getElementById('airda_image').style.opacity = "1";
+                }
+
+                function airda_stop() {
+                  document.getElementById('airda_image').style.opacity = "0";
+                }
+                airda_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>AIR-DA: Adversarial Image Reconstruction for Unsupervised Domain Adaptive Object Detection</papertitle>
+              <br>
+              <a href="https://www.researchgate.net/profile/Kunyang-Sun">Kunyang Sun</a>,
+              <strong>Wei Lin</strong>,
+              Haoqin Shi, <br>
+              <a href="https://scholar.google.com/citations?user=GePqbSgAAAAJ&hl=en">Zhengming Zhang</a>, 
+              <a href="https://scholar.google.com/citations?user=qd9zdUMAAAAJ&hl=zh-CN">Yongming Huang</a>,
+              <a href="https://www.tugraz.at/institute/icg/research/team-bischof/people/team-about/horst-bischof">Horst Bischof</a>
+              <br>
+        	IEEE Robotics and Automation Letters (RA-L) 2023
+              <br>
+              <a href="https://arxiv.org/abs/2303.15377">arxiv</a>
+        /
+              code
+        /
+              video
+              <p></p>
+            </td>
+          </tr> 
+          
+          
          <tr onmouseout="taec_stop()" onmouseover="taec_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -377,46 +422,7 @@
           </tr> 
           
           
-           <tr onmouseout="airda_stop()" onmouseover="airda_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='airda_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="images_lin/airda_after.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images_lin/airda_screenshot.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function airda_start() {
-                  document.getElementById('airda_image').style.opacity = "1";
-                }
 
-                function airda_stop() {
-                  document.getElementById('airda_image').style.opacity = "0";
-                }
-                airda_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <papertitle>AIR-DA: Adversarial Image Reconstruction for Unsupervised Domain Adaptive Object Detection</papertitle>
-              <br>
-              <a href="https://www.researchgate.net/profile/Kunyang-Sun">Kunyang Sun</a>,
-              <strong>Wei Lin</strong>,
-              Haoqin Shi, <br>
-              <a href="https://scholar.google.com/citations?user=GePqbSgAAAAJ&hl=en">Zhengming Zhang</a>, 
-              <a href="https://scholar.google.com/citations?user=qd9zdUMAAAAJ&hl=zh-CN">Yongming Huang</a>,
-              <a href="https://www.tugraz.at/institute/icg/research/team-bischof/people/team-about/horst-bischof">Horst Bischof</a>
-              <br>
-        	Arxiv 2022
-              <br>
-              arxiv
-        /
-              code
-        /
-              video
-              <p></p>
-            </td>
-          </tr> 
      
      
         
