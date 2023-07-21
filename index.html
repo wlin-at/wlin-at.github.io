@@ -53,6 +53,7 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
             <heading>News</heading>
             <ul>
+            <li><strong>07/2023</strong> Two papers are accepted to <strong>ICCV 2023</strong>! </li>
             <li><strong>05/2023</strong> Our paper <a href="https://wlin-at.github.io/maxi">MAtch, eXpand and Improve (MAXI)</a> is accepted as a <strong>Spotlight Presentation</strong> at the CVPR 2023 Workshop <a href="https://sites.google.com/view/t4v-cvpr23">T4V: Transformers for Vision</a>! </li>
             <li><strong>04/2023</strong> Application to the <a href="https://iplab.dmi.unict.it/icvss2023/Home">International Computer Vision Summer School 2023</a> is accepted (acceptance rate 27%)! </li>
             <li><strong>03/2023</strong> Application to the <a href="https://cvpr2023.thecvf.com/Conferences/2023/CallForDoctoralConsortium">CVPR 2023 Doctoral Consortium</a> is accepted (acceptance rate 13%)! </li>
@@ -107,7 +108,7 @@
               <br>
         	In collaboration with the <a href="https://mitibmwatsonailab.mit.edu/">MIT-IBM Watson AI Lab</a>
               <br>
-        	Arxiv 2023
+        	<em>ICCV</em>, 2023
               <br>
               <a href="https://arxiv.org/abs/2303.08914">arxiv</a>
         /
@@ -117,7 +118,58 @@
               <p></p>
               <p>Unsupervised finetuning of Vision-Language models for zero-shot and few-shot action recognition, with GPT3 text expansion and video frame captioning.</p>
             </td>
-          </tr> 		
+          </tr>
+          
+          <tr onmouseout="mate_stop()" onmouseover="mate_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='mate_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="dummy" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images_lin/mate_screenshot.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function mate_start() {
+                  document.getElementById('mate_image').style.opacity = "1";
+                }
+
+                function mate_stop() {
+                  document.getElementById('mate_image').style.opacity = "0";
+                }
+                mate_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>MATE: Masked Autoencoders are Online 3D Test-Time Learners</papertitle>
+              <br>
+              *<a href="https://scholar.google.com/citations?user=cES2rkAAAAAJ&hl=en">Muhammad Jehanzeb Mirza</a>,
+              *<a href="https://dlsrbgg33.github.io/">Inkyu Shin</a>,
+              *<strong>Wei Lin</strong>, 
+              <br>
+              Andreas Schriebl,
+              <a href="https://www.researchgate.net/profile/Kunyang-Sun">Kunyang Sun</a>,
+              <a href="https://sites.google.com/view/jaesungchoe">Jaesung Choe</a>,
+              <br>
+              <a href="https://snototter.github.io/research/">Horst Possegger</a>, 
+              <a href="https://scholar.google.com/citations?user=oDDqnQ4AAAAJ&hl=en">Mateusz Kozinski</a>, 
+              <a href="https://scholar.google.com/citations?user=XA8EOlEAAAAJ&hl=en">In So Kweon</a>,
+              <br>
+              <a href="https://sites.google.com/site/kjyoon/">Kun-Jin Yoon</a>, 
+              <a href="https://www.tugraz.at/institute/icg/research/team-bischof/people/team-about/horst-bischof">Horst Bischof</a>
+              (*equal contribution)
+              <br>
+        	<em>ICCV</em>, 2023
+              <br>
+              <a href="https://arxiv.org/abs/2211.11432">arxiv</a>
+        /
+              code
+        /
+              video
+              <p></p>
+
+            </td>
+          </tr>  		
 			
      
             <tr onmouseout="vitta_stop()" onmouseover="vitta_start()">
@@ -352,56 +404,7 @@
             </td>
           </tr> 
           
-                   <tr onmouseout="mate_stop()" onmouseover="mate_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='mate_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="dummy" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images_lin/mate_screenshot.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function mate_start() {
-                  document.getElementById('mate_image').style.opacity = "1";
-                }
-
-                function mate_stop() {
-                  document.getElementById('mate_image').style.opacity = "0";
-                }
-                mate_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <papertitle>MATE: Masked Autoencoders are Online 3D Test-Time Learners</papertitle>
-              <br>
-              *<a href="https://scholar.google.com/citations?user=cES2rkAAAAAJ&hl=en">Muhammad Jehanzeb Mirza</a>,
-              *<a href="https://dlsrbgg33.github.io/">Inkyu Shin</a>,
-              *<strong>Wei Lin</strong>, 
-              <br>
-              Andreas Schriebl,
-              <a href="https://www.researchgate.net/profile/Kunyang-Sun">Kunyang Sun</a>,
-              <a href="https://sites.google.com/view/jaesungchoe">Jaesung Choe</a>,
-              <br>
-              <a href="https://snototter.github.io/research/">Horst Possegger</a>, 
-              <a href="https://scholar.google.com/citations?user=oDDqnQ4AAAAJ&hl=en">Mateusz Kozinski</a>, 
-              <a href="https://scholar.google.com/citations?user=XA8EOlEAAAAJ&hl=en">In So Kweon</a>,
-              <br>
-              <a href="https://sites.google.com/site/kjyoon/">Kun-Jin Yoon</a>, 
-              <a href="https://www.tugraz.at/institute/icg/research/team-bischof/people/team-about/horst-bischof">Horst Bischof</a>
-              (*equal contribution)
-              <br>
-        	Arxiv 2022
-              <br>
-              <a href="https://arxiv.org/abs/2211.11432">arxiv</a>
-        /
-              code
-        /
-              video
-              <p></p>
-
-            </td>
-          </tr> 
+ 
           
          <tr onmouseout="cycdaex_stop()" onmouseover="cycdaex_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
