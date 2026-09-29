@@ -129,3 +129,30 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+/* Keep the biography and publication text readable on small screens. */
+@media (max-width: 600px) {
+  .profile > tbody > tr,
+  .publications > tbody > tr {
+    display: block;
+  }
+
+  .profile > tbody > tr > td,
+  .publications > tbody > tr > td {
+    display: block;
+    box-sizing: border-box;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 20px !important;
+  }
+
+  .profile > tbody > tr > td:last-child {
+    width: 220px !important;
+    margin: 0 auto;
+    padding-top: 0 !important;
+  }
+
+  .publications > tbody > tr > td:last-child {
+    padding-top: 0 !important;
+  }
+}

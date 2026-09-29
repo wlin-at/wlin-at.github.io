@@ -14,22 +14,21 @@
   <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr style="padding:0px">
       <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <table class="profile" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr style="padding:0px">
             <td style="padding:2.5%;width:63%;vertical-align:middle">
               <p style="text-align:center">
-                <name>Wei Lin <strong><FONT COLOR="#ff0000">(On Job Market)</FONT></strong></name>
+                <name>Wei Lin</name>
               </p>
               
-              <p>I am a research associate at the <a href="https://www.jku.at/en/institute-for-machine-learning/about-us/team/dr-wei-lin-msc/">Institute for Machine Learning</a> headed by Prof. <a href="https://scholar.google.at/citations?user=tvUH3WMAAAAJ&hl=en">Sepp Hochreiter</a> (Father of LSTM) at the Johannes Kepler University (JKU) Linz. 
+              <p>I am a <strong>Staff Applied Scientist at Xero UK Ltd</strong> in London, UK. I joined in January 2026.
+              </p>
+
+              <p>Previously, I was a postdoctoral researcher at the <a href="https://www.jku.at/en/institute-for-machine-learning/about-us/team/dr-wei-lin-msc/">Institute for Machine Learning</a> headed by Prof. <a href="https://scholar.google.at/citations?user=tvUH3WMAAAAJ&amp;hl=en">Sepp Hochreiter</a> (Father of LSTM) at Johannes Kepler University (JKU), Linz, from October 2023 to December 2025.
               </p>
               
               <p> I did my PhD at the <a href="https://www.tugraz.at/institute/icg/home">Institute of Computer Graphics and Vision</a>, <a href="https://www.tugraz.at/home">Graz University of Technology</a> (TU Graz ICG) in Austria, supervised by Prof. <a href="https://scholar.google.com/citations?user=_pq05Q4AAAAJ&hl=en">Horst Bischof</a> (Professor and the Rector of TU Graz) and Prof. <a href="https://scholar.google.ca/citations?user=pxhCcH0AAAAJ&hl=en">Hilde Kuehne</a> (<a href="https://tuebingen.ai/">Tuebingen AI Center, University of Tuebingen</a>, <a href="https://mitibmwatsonailab.mit.edu/">MIT-IBM Watson AI Lab</a>)
               </p>
-              <p>
-              I also work in close collaboration with <a href="https://scholar.google.com/citations?user=WbO7tjYAAAAJ&hl=en">Leonid Karlinsky</a> and <a href="https://www.rogerioferis.org/">Rogerio Feris</a> (Principal scientists and research manager) from the <a href="https://mitibmwatsonailab.mit.edu/">MIT-IBM Watson AI Lab</a>.
-              </p>
-
               <p>
               	 Previously, I received my Master's degree in Electrical and Computer Engineering at the <a href="https://www.tum.de/">Technical University of Munich</a> in Germany.
               </p>
@@ -55,6 +54,12 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
             <heading>News</heading>
             <ul>
+            <li><strong>2026</strong> <a href="#visual-grounding-first">Visual Grounding First, Multimodal In-context Learning Follows</a> is accepted at <strong>NeurIPS 2026</strong>!</li>
+            <li><strong>2026</strong> Three papers at <strong>CVPR 2026</strong>: <a href="#efficient-encoder-free">Efficient Encoder-Free Fourier-based 3D Large Multimodal Model</a>, <a href="#ttrv">TTRV</a>, and <a href="#visualoverload">VisualOverload</a>!</li>
+            <li><strong>2026</strong> <a href="#avion4d">AViON4D</a> is accepted at the <strong>CVPR 2026 OpenSUN3D Workshop</strong>.</li>
+            <li><strong>2026</strong> <a href="#prismm-bench">PRISMM-Bench</a> appears at <strong>ICLR 2026</strong>, and our <a href="#world-models-spatial-reasoning">work on world models for spatial reasoning</a> appears at the <strong>World Modeling Workshop 2026</strong>.</li>
+            <li><strong>01/2026</strong> I joined <strong>Xero UK Ltd as a Staff Applied Scientist</strong>, based in London, UK.</li>
+            <li><strong>2025</strong> <a href="#gblobs">GBlobs</a> won <strong>1st place</strong> in the <strong>IROS 2025 RoboSense Challenge, Track #3: Cross-Sensor Placement 3D Object Detection</strong>!</li>
             <li><strong>09/2025</strong> Two papers <a href="https://arxiv.org/abs/2506.11997">pLSTM</a> and <a href="https://arxiv.org/abs/2506.06218">STSBench</a> are accepted at <strong>NeurIPS 2025!</strong></li>
             <li><strong>06/2025</strong> I will co-organize <a href="https://sites.google.com/view/mmfm4thworkshop/home">the 4th Workshop on "What is Next in Multimodal Foundation Models?"</a> as a program chair on <strong>ICCV 2025</strong>! </li>
             <li><strong>02/2025</strong> Our paper <a href="https://arxiv.org/abs/2411.13317">IPLoc</a> is accepted at <strong>ICCV 2025!</strong> </li>
@@ -81,119 +86,67 @@
             </ul>
               <heading>Research</heading>
               <p>
-                I am interested in computer vision and machine learning in general. My research is mainly about multimodal large language models, video understanding, reinforcement learning and world models.
+                My research interests include reliable agent systems, multimodal large language models, domain adaptation, and video understanding.
               </p>
             </td>
           </tr>
         </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <table class="publications" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
        
-        <tr onmouseout="pLSTM_stop()" onmouseover="pLSTM_start()">
+        <tr class="publication" id="visual-grounding-first">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='LiveXiv_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="dummy" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images_lin/pLSTM_screenshot.png' width="160">
+                <img src="images_lin/white-placeholder.png" width="160" height="160" alt="" loading="lazy">
               </div>
-              <script type="text/javascript">
-                function maxi_start() {
-                  document.getElementById('IPLoc_image').style.opacity = "1";
-                }
-
-                function maxi_stop() {
-                  document.getElementById('IPLoc_image').style.opacity = "0";
-                }
-                maxi_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-            
-      			<papertitle>pLSTM: parallelizable Linear Source Transition Mark networks</papertitle>
-    		 </a>
+              <papertitle>Visual Grounding First, Multimodal In-context Learning Follows</papertitle>
               <br>
-              <a href="https://korbi.ai/">Korbinian Pöppel</a>,
-              <a href="https://www.jku.at/en/institute-for-machine-learning/about-us/team/richard-freinschlag-msc/">Richard Freinschlag</a>, 
-              <a href="https://scholar.google.com/citations?user=rEfdigIAAAAJ&hl=de">Thomas Schmied</a>, <br>
-              <strong>Wei Lin</strong>, 
-              <a href="https://scholar.google.at/citations?user=tvUH3WMAAAAJ&hl=en">Sepp Hochreiter</a>,
+              Minhyuk Seo<sup>*</sup>, Minjae Lee<sup>*</sup>, Chaeeun Lee, <strong>Wei Lin</strong>, Muhammad Jehanzeb Mirza, Tinne Tuytelaars, Jonghyun Choi<br><small>*Equal contribution</small>
               <br>
-        	<em>NeurIPS</em>, 2025
-              <br>
-              <a href="https://arxiv.org/abs/2506.11997">arxiv</a>
-        /
-              code
-        /
-              video
-              <p></p>
+              <em>NeurIPS</em>, 2026
             </td>
           </tr>
 
-        <tr onmouseout="pLSTM_stop()" onmouseover="pLSTM_start()">
+        <tr class="publication" id="efficient-encoder-free">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='LiveXiv_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="dummy" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images_lin/STSbench_screenshot.png' width="160">
+                <img src="images_lin/white-placeholder.png" width="160" height="160" alt="" loading="lazy">
               </div>
-              <script type="text/javascript">
-                function maxi_start() {
-                  document.getElementById('IPLoc_image').style.opacity = "1";
-                }
-
-                function maxi_stop() {
-                  document.getElementById('IPLoc_image').style.opacity = "0";
-                }
-                maxi_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-            
-      			<papertitle>STSBench: A Spatio-temporal Scenario Benchmark for Multi-modal Large Language Models in Autonomous Driving</papertitle>
-    		 </a>
+              <a href="https://arxiv.org/abs/2602.23153"><papertitle>Efficient Encoder-Free Fourier-based 3D Large Multimodal Model</papertitle></a>
               <br>
-              <a href="https://scholar.google.com/citations?user=Mg5Vlp8AAAAJ&hl=en">Christian Fruhwirth-Reisinger</a>,
-              <a href="https://graz.elsevierpure.com/en/persons/du%C5%A1an-mali%C4%87">Dusan Malic</a>, 
-              <strong>Wei Lin</strong>, <br>
-              <a href="https://dschinagl.github.io/">David Schinagl</a>, 
-              <a href="https://samschulter.github.io/">Samuel Schulter</a>,
-              <a href="https://snototter.github.io/research/">Horst Possegger</a>
+              Guofeng Mei, <strong>Wei Lin</strong>, Luigi Riz, Yujiao Wu, Yiming Wang, Fabio Poiesi
               <br>
-        	<em>NeurIPS</em>, 2025 Datasets & Benchmarks Track
+              <em>CVPR</em>, 2026
               <br>
-              <a href="https://arxiv.org/abs/2506.06218">arxiv</a>
-        /
-              code
-        /
-              video
-              <p></p>
+              <a href="https://arxiv.org/abs/2602.23153">arXiv</a>
             </td>
           </tr>
-          
-          
-      
-        <tr onmouseout="visualoverload_stop()" onmouseover="visualoverload_start()">
+
+        <tr class="publication" id="ttrv">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='LiveXiv_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="dummy" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images_lin/visualoverload.png' width="160">
+                <img src="images_lin/white-placeholder.png" width="160" height="160" alt="" loading="lazy">
               </div>
-              <script type="text/javascript">
-                function maxi_start() {
-                  document.getElementById('IPLoc_image').style.opacity = "1";
-                }
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2510.06783"><papertitle>TTRV: Test-Time Reinforcement Learning for Vision Language Models</papertitle></a>
+              <br>
+              Akshit Singh, Shyam Marjit, <strong>Wei Lin</strong>, Paul Gavrikov, Serena Yeung-Levy, Hilde Kuehne, Rogerio Feris, Sivan Doveh, James Glass, M. Jehanzeb Mirza
+              <br>
+              <em>CVPR</em>, 2026
+              <br>
+              <a href="https://arxiv.org/abs/2510.06783">arXiv</a>
+            </td>
+          </tr>
 
-                function maxi_stop() {
-                  document.getElementById('IPLoc_image').style.opacity = "0";
-                }
-                maxi_stop()
-              </script>
+        <tr class="publication" id="visualoverload">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images_lin/visualoverload.png' width="160" alt="VisualOverload: Probing Visual Understanding of VLMs in Really Dense Scenes" loading="lazy">
+              </div>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
             
@@ -207,13 +160,13 @@
               <strong>Wei Lin</strong>,
               <a href="https://jmiemirza.github.io/">Muhammad Jehanzeb Mirza</a>,  <br>
               <a href="https://soumyasj.github.io/"> Soumya Jahagirdar</a>,
-              <a href="https://muhammad-huzaifaa.github.io/">Muhammad Huzaifa</a>
+              <a href="https://muhammad-huzaifaa.github.io/">Muhammad Huzaifa</a>,
               <a href="https://sivandoveh.github.io/">Sivan Doveh</a>,  <br>
-              <a href="https://ai.stanford.edu/~syyeung/">Serena Yeung-Levy</a>
-              <a href="https://www.csail.mit.edu/person/jim-glass">James Glass</a>
+              <a href="https://ai.stanford.edu/~syyeung/">Serena Yeung-Levy</a>,
+              <a href="https://www.csail.mit.edu/person/jim-glass">James Glass</a>,
               <a href="https://hildekuehne.github.io/">Hilde Kuehne</a>
               <br>
-        	<em>Arxiv</em>, 2025
+          <em>CVPR</em>, 2026
               <br>
               <a href="https://arxiv.org/pdf/2509.25339">arxiv</a>
         /
@@ -225,35 +178,193 @@
               <p></p>
             </td>
           </tr>
-       
 
-
-
-       
-        <tr onmouseout="IPLoc_stop()" onmouseover="IPLoc_start()">
+        <tr class="publication" id="prismm-bench">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='LiveXiv_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="dummy" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images_lin/IPLoc_screenshot.png' width="160">
+                <img src="images_lin/white-placeholder.png" width="160" height="160" alt="" loading="lazy">
               </div>
-              <script type="text/javascript">
-                function maxi_start() {
-                  document.getElementById('IPLoc_image').style.opacity = "1";
-                }
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://da-luggas.github.io/prismm-bench/"><papertitle>PRISMM-Bench: A Benchmark of Peer-Review Grounded Multimodal Inconsistencies</papertitle></a>
+              <br>
+              Lukas Selch, Yufang Hou, M. Jehanzeb Mirza, Sivan Doveh, James Glass, Rogerio Feris, <strong>Wei Lin</strong>
+              <br>
+              <em>ICLR</em>, 2026
+              <br>
+              <a href="https://arxiv.org/abs/2510.16505">arXiv</a> / <a href="https://da-luggas.github.io/prismm-bench/">project</a>
+            </td>
+          </tr>
 
-                function maxi_stop() {
-                  document.getElementById('IPLoc_image').style.opacity = "0";
-                }
-                maxi_stop()
-              </script>
+        <tr class="publication" id="avion4d">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src="images_lin/white-placeholder.png" width="160" height="160" alt="" loading="lazy">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://openaccess.thecvf.com/content/CVPR2026W/OpenSUN3D/html/Ballester_AViON4D_Audio-Visual_Open-Vocabulary_4D_Egocentric_Scene_Understanding_CVPRW_2026_paper.html"><papertitle>AViON4D: Audio-Visual Open-Vocabulary 4D Egocentric Scene Understanding</papertitle></a>
+              <br>
+              Irene Ballester, Pedro Hermosilla, <strong>Wei Lin</strong>, James R. Glass, M. Jehanzeb Mirza, Martin Kampel
+              <br>
+              <em>CVPR 2026 OpenSUN3D Workshop</em>
+              <br>
+              <a href="https://openaccess.thecvf.com/content/CVPR2026W/OpenSUN3D/html/Ballester_AViON4D_Audio-Visual_Open-Vocabulary_4D_Egocentric_Scene_Understanding_CVPRW_2026_paper.html">paper</a>
+            </td>
+          </tr>
+
+        <tr class="publication" id="world-models-spatial-reasoning">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src="images_lin/white-placeholder.png" width="160" height="160" alt="" loading="lazy">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2512.05809"><papertitle>Probing the Effectiveness of World Models for Spatial Reasoning through Test-time Scaling</papertitle></a>
+              <br>
+              Saurav Jha, M. Jehanzeb Mirza, <strong>Wei Lin</strong>, Shiqi Yang, Sarath Chandar
+              <br>
+              <em>World Modeling Workshop</em>, 2026
+              <br>
+              <a href="https://arxiv.org/abs/2512.05809">arXiv</a>
+            </td>
+          </tr>
+
+        <tr class="publication" id="robosense-challenge">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src="images_lin/white-placeholder.png" width="160" height="160" alt="" loading="lazy">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2601.05014"><papertitle>The RoboSense Challenge: Sense Anything, Navigate Anywhere, Adapt Across Platforms</papertitle></a>
+              <br>
+              Lingdong Kong, Shaoyuan Xie, Zeying Gong, Ye Li, Meng Chu, Ao Liang, Yuhao Dong, et al. (including <strong>Wei Lin</strong>)
+              <br>
+              Official <em>IROS 2025 RoboSense Challenge</em> Report
+              <br>
+              <a href="https://arxiv.org/abs/2601.05014">arXiv</a>
+            </td>
+          </tr>
+
+        <tr class="publication" id="generated-human-videos">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src="images_lin/white-placeholder.png" width="160" height="160" alt="" loading="lazy">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://genmimic.github.io/"><papertitle>From Generated Human Videos to Physically Plausible Robot Trajectories</papertitle></a>
+              <br>
+              James Ni, Zekai Wang, <strong>Wei Lin</strong>, Amir Bar, Yann LeCun, Trevor Darrell, Jitendra Malik, Roei Herzig
+              <br>
+              <em>arXiv</em>, 2025
+              <br>
+              <a href="https://arxiv.org/abs/2512.05094">arXiv</a> / <a href="https://genmimic.github.io/">project</a>
+            </td>
+          </tr>
+
+        <tr class="publication" id="gblobs">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src="images_lin/white-placeholder.png" width="160" height="160" alt="" loading="lazy">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2510.18539"><papertitle>GBlobs: Local LiDAR Geometry for Improved Sensor Placement Generalization</papertitle></a>
+              <br>
+              Dušan Malić, Christian Fruhwirth-Reisinger, Alexander Prutsch, <strong>Wei Lin</strong>, Samuel Schulter, Horst Possegger
+              <br>
+              <strong>1st place</strong>, <em>IROS 2025 RoboSense Challenge</em><br>Track #3: Cross-Sensor Placement 3D Object Detection
+              <br>
+              <a href="https://arxiv.org/abs/2510.18539">arXiv</a>
+            </td>
+          </tr>
+
+        <tr class="publication" id="modality-guidance">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src="images_lin/white-placeholder.png" width="160" height="160" alt="" loading="lazy">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2504.14231"><papertitle>Exploring Modality Guidance to Enhance VFM-based Feature Fusion for UDA in 3D Semantic Segmentation</papertitle></a>
+              <br>
+              Johannes Spoecklberger, <strong>Wei Lin</strong>, Pedro Hermosilla, Sivan Doveh, Horst Possegger, M. Jehanzeb Mirza
+              <br>
+              <em>CVPR 2025 DriveX Workshop</em>
+              <br>
+              <a href="https://arxiv.org/abs/2504.14231">arXiv</a>
+            </td>
+          </tr>
+
+        <tr class="publication">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images_lin/pLSTM_screenshot.png' width="160" alt="pLSTM: parallelizable Linear Source Transition Mark networks" loading="lazy">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+
+            <papertitle>pLSTM: parallelizable Linear Source Transition Mark networks</papertitle>
+
+              <br>
+              <a href="https://korbi.ai/">Korbinian Pöppel</a>,
+              <a href="https://www.jku.at/en/institute-for-machine-learning/about-us/team/richard-freinschlag-msc/">Richard Freinschlag</a>,
+              <a href="https://scholar.google.com/citations?user=rEfdigIAAAAJ&hl=de">Thomas Schmied</a>, <br>
+              <strong>Wei Lin</strong>,
+              <a href="https://scholar.google.at/citations?user=tvUH3WMAAAAJ&hl=en">Sepp Hochreiter</a>,
+              <br>
+          <em>NeurIPS</em>, 2025
+              <br>
+              <a href="https://arxiv.org/abs/2506.11997">arxiv</a>
+        /
+              code
+        /
+              video
+              <p></p>
+            </td>
+          </tr>
+
+        <tr class="publication">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images_lin/STSbench_screenshot.png' width="160" alt="STSBench: A Spatio-temporal Scenario Benchmark for Multi-modal Large Language Models in Autonomous Driving" loading="lazy">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+
+            <papertitle>STSBench: A Spatio-temporal Scenario Benchmark for Multi-modal Large Language Models in Autonomous Driving</papertitle>
+
+              <br>
+              <a href="https://scholar.google.com/citations?user=Mg5Vlp8AAAAJ&hl=en">Christian Fruhwirth-Reisinger</a>,
+              <a href="https://graz.elsevierpure.com/en/persons/du%C5%A1an-mali%C4%87">Dusan Malic</a>,
+              <strong>Wei Lin</strong>, <br>
+              <a href="https://dschinagl.github.io/">David Schinagl</a>,
+              <a href="https://samschulter.github.io/">Samuel Schulter</a>,
+              <a href="https://snototter.github.io/research/">Horst Possegger</a>
+              <br>
+          <em>NeurIPS</em>, 2025 Datasets & Benchmarks Track
+              <br>
+              <a href="https://arxiv.org/abs/2506.06218">arxiv</a>
+        /
+              code
+        /
+              video
+              <p></p>
+            </td>
+          </tr>
+
+        <tr class="publication">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images_lin/IPLoc_screenshot.png' width="160" alt="Teaching VLMs to Localize Specific Objects from In-context Examples" loading="lazy">
+              </div>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
             
       			<papertitle>Teaching VLMs to Localize Specific Objects from In-context Examples</papertitle>
-    		 </a>
+
               <br>
               <a href="https://scholar.google.co.il/citations?user=ER4dt8cAAAAJ&hl=iw">Sivan Doveh</a>,
               <a href="https://scholar.google.com/citations?user=z4Jk_I4AAAAJ&hl=en">Nimrod Shabtay</a>, 
@@ -278,27 +389,12 @@
               <p></p>
             </td>
           </tr>
-       
-       
-               <tr onmouseout="PerLA_stop()" onmouseover="PerLA_start()">
+
+        <tr class="publication">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='PerLA_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="dummy" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images_lin/PerLA_screenshot.png' width="160">
+                <img src='images_lin/PerLA_screenshot.png' width="160" alt="PerLA: Perceptive 3D Language Assistant" loading="lazy">
               </div>
-              <script type="text/javascript">
-                function maxi_start() {
-                  document.getElementById('PerLA_image').style.opacity = "1";
-                }
-
-                function maxi_stop() {
-                  document.getElementById('PerLA_image').style.opacity = "0";
-                }
-                maxi_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
             
@@ -323,35 +419,17 @@
               <p></p>
             </td>
           </tr>
-       
-      
-       
-       
-       
-          <tr onmouseout="LiveXiv_stop()" onmouseover="LiveXiv_start()">
+
+        <tr class="publication">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='LiveXiv_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="dummy" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images_lin/LiveXiv_screenshot.png' width="160">
+                <img src='images_lin/LiveXiv_screenshot.png' width="160" alt="LiveXiv--A Multi-Modal Live Benchmark Based on Arxiv Papers Content" loading="lazy">
               </div>
-              <script type="text/javascript">
-                function maxi_start() {
-                  document.getElementById('LiveXiv_image').style.opacity = "1";
-                }
-
-                function maxi_stop() {
-                  document.getElementById('LiveXiv_image').style.opacity = "0";
-                }
-                maxi_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
             
       			<papertitle>LiveXiv--A Multi-Modal Live Benchmark Based on Arxiv Papers Content</papertitle>
-    		 </a>
+
               <br>
               <a href="https://scholar.google.com/citations?user=z4Jk_I4AAAAJ&hl=en">Nimrod Shabtay</a>, 
               <a href="https://scholar.google.com/citations?user=CJbgmnkAAAAJ&hl=en">Felipe Maia Polo</a>, 
@@ -377,32 +455,17 @@
               <p></p>
             </td>
           </tr>
-          
-          
-    <tr onmouseout="instructify_stop()" onmouseover="instructify_start()">
+
+        <tr class="publication">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='LiveXiv_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="dummy" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images_lin/instructify.png' width="160">
+                <img src='images_lin/instructify.png' width="160" alt="Instructify: Demystifying Metadata to Visual Instruction Tuning Data Conversion" loading="lazy">
               </div>
-              <script type="text/javascript">
-                function maxi_start() {
-                  document.getElementById('LiveXiv_image').style.opacity = "1";
-                }
-
-                function maxi_stop() {
-                  document.getElementById('LiveXiv_image').style.opacity = "0";
-                }
-                maxi_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
             
       			<papertitle>Instructify: Demystifying Metadata to Visual Instruction Tuning Data Conversion</papertitle>
-    		 </a>
+
               <br>
               Jacob Hansen, 
               <strong>Wei Lin</strong>,
@@ -424,28 +487,12 @@
               <p></p>
             </td>
           </tr>
-       
-       
-       
-                <tr onmouseout="glov_stop()" onmouseover="glov_start()">
+
+        <tr class="publication">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='glov_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="dummy" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images_lin/GLOV_screenshot.png' width="160">
+                <img src='images_lin/GLOV_screenshot.png' width="160" alt="GLOV: Guided Large Language Models as Implicit Optimizers for Vision Language Models" loading="lazy">
               </div>
-              <script type="text/javascript">
-                function maxi_start() {
-                  document.getElementById('cadvi_image').style.opacity = "1";
-                }
-
-                function maxi_stop() {
-                  document.getElementById('cadvi_image').style.opacity = "0";
-                }
-                maxi_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
             
@@ -479,26 +526,12 @@
               <p></p>
             </td>
           </tr>
-       
-         <tr onmouseout="cadvi_stop()" onmouseover="cadvi_start()">
+
+        <tr class="publication">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='cadvi_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="dummy" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images_lin/cad_vi_screenshot.png' width="160">
+                <img src='images_lin/cad_vi_screenshot.png' width="160" alt="Comparison Visual Instruction Tuning" loading="lazy">
               </div>
-              <script type="text/javascript">
-                function maxi_start() {
-                  document.getElementById('cadvi_image').style.opacity = "1";
-                }
-
-                function maxi_stop() {
-                  document.getElementById('cadvi_image').style.opacity = "0";
-                }
-                maxi_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
 		<a href="https://wlin-at.github.io/cad_vi">
@@ -528,28 +561,12 @@
               <p>an approach for collection of visual instructions that improves Commonality and difference spoting capabilities for Large Multimodal Modes</p>
             </td>
           </tr>
-       
-       
-       
-           <tr onmouseout="conme_stop()" onmouseover="conme_start()">
+
+        <tr class="publication">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='conme_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="dummy" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images_lin/conme_screenshot.png' width="160">
+                <img src='images_lin/conme_screenshot.png' width="160" alt="Conme: Rethinking Evaluation of Compositional Reasoning for Modern VLMs" loading="lazy">
               </div>
-              <script type="text/javascript">
-                function maxi_start() {
-                  document.getElementById('conme_image').style.opacity = "1";
-                }
-
-                function maxi_stop() {
-                  document.getElementById('conme_image').style.opacity = "0";
-                }
-                maxi_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
 		
@@ -587,27 +604,12 @@
 
             </td>
           </tr>
-       
-		
-         <tr onmouseout="mpvr_stop()" onmouseover="mpvr_start()">
+
+        <tr class="publication">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='mpvr_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="dummy" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images_lin/mpvr_screenshot.png' width="160">
+                <img src='images_lin/mpvr_screenshot.png' width="160" alt="Meta-Prompting for Automating Zero-shot Visual Recognition with LLMs" loading="lazy">
               </div>
-              <script type="text/javascript">
-                function maxi_start() {
-                  document.getElementById('mpvr_image').style.opacity = "1";
-                }
-
-                function maxi_stop() {
-                  document.getElementById('mpvr_image').style.opacity = "0";
-                }
-                maxi_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
 		<a href="https://jmiemirza.github.io/Meta-Prompting/">
@@ -637,26 +639,12 @@
 
             </td>
           </tr>
-          
-           <tr onmouseout="vilgod_stop()" onmouseover="lizo_start()">
+
+        <tr class="publication">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='vilgod_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="dummy" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images_lin/ViLGOD_screenshot.png' width="160">
+                <img src='images_lin/ViLGOD_screenshot.png' width="160" alt="Vision-Language Guidance for LiDAR-based Unsupervised 3D Object Detection" loading="lazy">
               </div>
-              <script type="text/javascript">
-                function lizo_start() {
-                  document.getElementById('vilgod_image').style.opacity = "1";
-                }
-
-                function lizo_stop() {
-                  document.getElementById('vilgod_image').style.opacity = "0";
-                }
-                lizo_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
       		   <papertitle>Vision-Language Guidance for LiDAR-based Unsupervised 3D Object Detection</papertitle>
@@ -680,28 +668,13 @@
               <p></p>
 
             </td>
-          </tr> 
-          
-          
-           <tr onmouseout="multimodal_icl_stop()" onmouseover="multimodal_icl_start()">
+          </tr>
+
+        <tr class="publication">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='multimodal_icl_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="dummy" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images_lin/multimodal_ICL_screenshot.png' width="160">
+                <img src='images_lin/multimodal_ICL_screenshot.png' width="160" alt="Towards Multimodal In-Context Learning for Vision &amp; Language Models" loading="lazy">
               </div>
-              <script type="text/javascript">
-                function lizo_start() {
-                  document.getElementById('multimodal_icl_image').style.opacity = "1";
-                }
-
-                function lizo_stop() {
-                  document.getElementById('multimodal_icl_image').style.opacity = "0";
-                }
-                lizo_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
       		   <papertitle>Towards Multimodal In-Context Learning for Vision & Language Models</papertitle>
@@ -728,28 +701,13 @@
               <p></p>
 
             </td>
-          </tr> 
-          
-          
-           <tr onmouseout="lizo_stop()" onmouseover="lizo_start()">
+          </tr>
+
+        <tr class="publication">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='lizo_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="dummy" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images_lin/shapetastic_ood_screenshot.png' width="160">
+                <img src='images_lin/shapetastic_ood_screenshot.png' width="160" alt="Overlooked Aspects in the Evaluation of Out-Of-Distribution Detection Methods" loading="lazy">
               </div>
-              <script type="text/javascript">
-                function lizo_start() {
-                  document.getElementById('lizo_image').style.opacity = "1";
-                }
-
-                function lizo_stop() {
-                  document.getElementById('lizo_image').style.opacity = "0";
-                }
-                lizo_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
       		   <papertitle>Overlooked Aspects in the Evaluation of Out-Of-Distribution Detection Methods</papertitle>
@@ -773,29 +731,13 @@
               <p></p>
 
             </td>
-          </tr> 
+          </tr>
 
-	
-
-         <tr onmouseout="lafter_stop()" onmouseover="lafter_start()">
+        <tr class="publication">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='lafter_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="dummy" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images_lin/lafter_screenshot.png' width="160">
+                <img src='images_lin/lafter_screenshot.png' width="160" alt="LaFTer: Label-Free Tuning of Zero-shot Classifier using Language and Unlabeled Image Collections" loading="lazy">
               </div>
-              <script type="text/javascript">
-                function lafter_start() {
-                  document.getElementById('lafter_image').style.opacity = "1";
-                }
-
-                function lafter_stop() {
-                  document.getElementById('lafter_image').style.opacity = "0";
-                }
-                lafter_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
       		   <papertitle>LaFTer: Label-Free Tuning of Zero-shot Classifier using Language and Unlabeled Image Collections</papertitle>
@@ -820,27 +762,13 @@
               <p></p>
 
             </td>
-          </tr> 
+          </tr>
 
-         <tr onmouseout="maxi_stop()" onmouseover="maxi_start()">
+        <tr class="publication">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='maxi_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="dummy" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images_lin/maxi_screenshot.png' width="160">
+                <img src='images_lin/maxi_screenshot.png' width="160" alt="MAtch, eXpand and Improve: Unsupervised Finetuning for Zero-Shot Action Recognition with Language Knowledge" loading="lazy">
               </div>
-              <script type="text/javascript">
-                function maxi_start() {
-                  document.getElementById('maxi_image').style.opacity = "1";
-                }
-
-                function maxi_stop() {
-                  document.getElementById('maxi_image').style.opacity = "0";
-                }
-                maxi_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
 		<a href="https://wlin-at.github.io/maxi">
@@ -870,26 +798,12 @@
               <p>Unsupervised finetuning of Vision-Language models for zero-shot and few-shot action recognition, with GPT3 text expansion and video frame captioning.</p>
             </td>
           </tr>
-          
-         <tr onmouseout="tap_stop()" onmouseover="tap_start()">
+
+        <tr class="publication">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='tap_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="dummy" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images_lin/tap_screenshot.png' width="160">
+                <img src='images_lin/tap_screenshot.png' width="160" alt="TAP: Targeted Prompting for Task Adaptive Generation of Textual Training Instances for Visual Classification" loading="lazy">
               </div>
-              <script type="text/javascript">
-                function tap_start() {
-                  document.getElementById('tap_image').style.opacity = "1";
-                }
-
-                function tap_stop() {
-                  document.getElementById('tap_image').style.opacity = "0";
-                }
-                tap_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
       		   <papertitle>TAP: Targeted Prompting for Task Adaptive Generation of Textual Training Instances for Visual Classification</papertitle>
@@ -913,31 +827,13 @@
               <p></p>
 
             </td>
-          </tr> 
-          
-          
+          </tr>
 
-          
-          
-          <tr onmouseout="mate_stop()" onmouseover="mate_start()">
+        <tr class="publication">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='mate_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="dummy" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images_lin/mate_screenshot.png' width="160">
+                <img src='images_lin/mate_screenshot.png' width="160" alt="MATE: Masked Autoencoders are Online 3D Test-Time Learners" loading="lazy">
               </div>
-              <script type="text/javascript">
-                function mate_start() {
-                  document.getElementById('mate_image').style.opacity = "1";
-                }
-
-                function mate_stop() {
-                  document.getElementById('mate_image').style.opacity = "0";
-                }
-                mate_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <papertitle>MATE: Masked Autoencoders are Online 3D Test-Time Learners</papertitle>
@@ -968,28 +864,13 @@
               <p></p>
 
             </td>
-          </tr>  		
-			
-     
-            <tr onmouseout="vitta_stop()" onmouseover="vitta_start()">
+          </tr>
+
+        <tr class="publication">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='vitta_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="dummy" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images_lin/vitta_screenshot.png' width="160">
+                <img src='images_lin/vitta_screenshot.png' width="160" alt="Video Test-Time Adaptation for Action Recognition" loading="lazy">
               </div>
-              <script type="text/javascript">
-                function vitta_start() {
-                  document.getElementById('vitta_image').style.opacity = "1";
-                }
-
-                function vitta_stop() {
-                  document.getElementById('vitta_image').style.opacity = "0";
-                }
-                vitta_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
             <a href="https://wlin-at.github.io/vitta">
@@ -1016,28 +897,13 @@
               <p></p>
               <p>Test-time adaptation of video action recognition against common distribution shifts.</p>
             </td>
-          </tr> 
-          
-       
-          <tr onmouseout="actmad_stop()" onmouseover="actmad_start()">
+          </tr>
+
+        <tr class="publication">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='actmad_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="dummy" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images_lin/actmad_screenshot.png' width="160">
+                <img src='images_lin/actmad_screenshot.png' width="160" alt="ActMAD: Activation Matching to Align Distributions for Test-Time-Training" loading="lazy">
               </div>
-              <script type="text/javascript">
-                function actmad_start() {
-                  document.getElementById('actmad_image').style.opacity = "1";
-                }
-
-                function actmad_stop() {
-                  document.getElementById('actmad_image').style.opacity = "0";
-                }
-                actmad_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
                   <a href="https://jmiemirza.github.io/ActMAD/">
@@ -1063,31 +929,13 @@
               <p></p>
 
             </td>
-          </tr> 
-          
-      
+          </tr>
 
-          
-          
-       <tr onmouseout="lizo_stop()" onmouseover="lizo_start()">
+        <tr class="publication">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='lizo_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="dummy" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images_lin/lizo_screenshot.png' width="160">
+                <img src='images_lin/lizo_screenshot.png' width="160" alt="Unsupervised Class-aware 3D Object Detection in LiDAR Point Clouds" loading="lazy">
               </div>
-              <script type="text/javascript">
-                function lizo_start() {
-                  document.getElementById('lizo_image').style.opacity = "1";
-                }
-
-                function lizo_stop() {
-                  document.getElementById('lizo_image').style.opacity = "0";
-                }
-                lizo_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
       		   <papertitle>Unsupervised Class-aware 3D Object Detection in LiDAR Point Clouds</papertitle>
@@ -1112,31 +960,13 @@
               <p></p>
 
             </td>
-          </tr> 
-          
-          
+          </tr>
 
-     
-     
-       <tr onmouseout="cycda_stop()" onmouseover="cycda_start()">
+        <tr class="publication">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='cycda_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="images_lin/cycda_after.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images_lin/cycda_screenshot.png' width="160">
+                <img src='images_lin/cycda_screenshot.png' width="160" alt="CycDA: Unsupervised Cycle Domain Adaptation to Learn from Image to Video" loading="lazy">
               </div>
-              <script type="text/javascript">
-                function cycda_start() {
-                  document.getElementById('cycda_image').style.opacity = "1";
-                }
-
-                function cycda_stop() {
-                  document.getElementById('cycda_image').style.opacity = "0";
-                }
-                cycda_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <papertitle>CycDA: Unsupervised Cycle Domain Adaptation to Learn from Image to Video</papertitle>
@@ -1160,29 +990,13 @@
               <p></p>
               <p>Unsupervised image-to-video domain adaptation.</p>
             </td>
-          </tr> 
-          
- 
-          
-         <tr onmouseout="cycdaex_stop()" onmouseover="cycdaex_start()">
+          </tr>
+
+        <tr class="publication">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='cycdaex_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="dummy" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images_lin/cycda_screenshot.png' width="160">
+                <img src='images_lin/cycda_screenshot.png' width="160" alt="Extended Abstract CycDA: Unsupervised Cycle Domain Adaptation to Learn from Image to Video" loading="lazy">
               </div>
-              <script type="text/javascript">
-                function cycdaex_start() {
-                  document.getElementById('cycdaex_image').style.opacity = "1";
-                }
-
-                function cycdaex_stop() {
-                  document.getElementById('cycdaex_image').style.opacity = "0";
-                }
-                cycdaex_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <papertitle>Extended Abstract CycDA: Unsupervised Cycle Domain Adaptation to Learn from Image to Video</papertitle>
@@ -1203,27 +1017,13 @@
               <a href="https://www.youtube.com/watch?v=0mUuhkL_3zM">video</a>
               <p></p>
             </td>
-          </tr> 
-          
-         <tr onmouseout="airda_stop()" onmouseover="airda_start()">
+          </tr>
+
+        <tr class="publication">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='airda_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="images_lin/airda_after.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images_lin/airda_screenshot.png' width="160">
+                <img src='images_lin/airda_screenshot.png' width="160" alt="AIR-DA: Adversarial Image Reconstruction for Unsupervised Domain Adaptive Object Detection" loading="lazy">
               </div>
-              <script type="text/javascript">
-                function airda_start() {
-                  document.getElementById('airda_image').style.opacity = "1";
-                }
-
-                function airda_stop() {
-                  document.getElementById('airda_image').style.opacity = "0";
-                }
-                airda_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <papertitle>AIR-DA: Adversarial Image Reconstruction for Unsupervised Domain Adaptive Object Detection</papertitle>
@@ -1246,28 +1046,13 @@
               video
               <p></p>
             </td>
-          </tr> 
-          
-          
-         <tr onmouseout="taec_stop()" onmouseover="taec_start()">
+          </tr>
+
+        <tr class="publication">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='taec_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="images_lin/taec_after.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images_lin/taec_screenshot.png' width="160">
+                <img src='images_lin/taec_screenshot.png' width="160" alt="TAEC: Unsupervised Action Segmentation with Temporal-Aware Embedding and Clustering" loading="lazy">
               </div>
-              <script type="text/javascript">
-                function taec_start() {
-                  document.getElementById('taec_image').style.opacity = "1";
-                }
-
-                function taec_stop() {
-                  document.getElementById('taec_image').style.opacity = "0";
-                }
-                taec_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <papertitle>TAEC: Unsupervised Action Segmentation with Temporal-Aware Embedding and Clustering</papertitle>
@@ -1287,29 +1072,13 @@
               video
               <p></p>
             </td>
-          </tr> 
-          
-       
-       
-          <tr onmouseout="dilam_stop()" onmouseover="dilam_start()">
+          </tr>
+
+        <tr class="publication">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='dilam_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="dummy" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images_lin/dilam_screenshot.png' width="160">
+                <img src='images_lin/dilam_screenshot.png' width="160" alt="Sit Back and Relax: Learning to Drive Incrementally in All Weather Conditions" loading="lazy">
               </div>
-              <script type="text/javascript">
-                function dilam_start() {
-                  document.getElementById('dilam_image').style.opacity = "1";
-                }
-
-                function dilam_stop() {
-                  document.getElementById('dilam_image').style.opacity = "0";
-                }
-                dilam_stop()
-              </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
       		   <papertitle>Sit Back and Relax: Learning to Drive Incrementally in All Weather Conditions</papertitle>
@@ -1335,86 +1104,61 @@
               <p></p>
 
             </td>
-          </tr> 
+          </tr>
+        </tbody></table>
 
-     
-     
-        
-      <!-- Academic Services -->
-      
-      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+      <!-- Academic Service -->
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
         <tr>
-            <td>
-        <heading>Academic Service</heading>
-          <tr>
-            <td>
-              
-              <ul>
-                  <li> <strong>Conference Reviewer</strong>: ECCV 2022, ISMAR 2023, CVPR 2023, NeurIPS 2023, WACV 2024, CVPR 2024, ECCV 2024, NeurIPS 2024, NeurIPS 2024 Dataset and Benchmark Track, ICLR 2025, CVPR 2025 <br>
-		   <li> <strong>Journal Reviewer</strong>: TPAMI 2023, TNNLS 2023, IEEE Trans. Multimedia 2023, Pattern Recognition Letters 2024, Trans. Image Processing 2024 <br>
-              </ul>
-            </td>
-          </tr>
-                     </td>
-          </tr>
-      </table>
-      
+          <td>
+            <heading>Academic Service</heading>
+            <ul>
+              <li><strong>Conference Reviewer</strong>: ECCV 2022, ISMAR 2023, CVPR 2023, NeurIPS 2023, WACV 2024, CVPR 2024, ECCV 2024, NeurIPS 2024, NeurIPS 2024 Dataset and Benchmark Track, ICLR 2025, CVPR 2025, ICCV 2025, ICCV 2025 Workshop MMFM4, ICLR 2026, WACV 2026, CVPR 2026, CVPR 2026 Workshop CV4Edu, NeurIPS 2026, ICLR 2027</li>
+              <li><strong>Journal Reviewer</strong>: TPAMI 2023, TNNLS 2023, IEEE Trans. Multimedia 2023, Pattern Recognition Letters 2024, Trans. Image Processing 2024</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody></table>
+
       <!-- Teaching -->
-      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
         <tr>
-            <td>
-        <heading>Teaching</heading>
-          <tr>
-            <td>
-              
-              <ul>
-                  <li> <strong>Deep Learning and Neural Networks I</strong> - Exercise<br>
-		   <li> <strong>Machine Learning: Supervised Techniques</strong> - Exercise<br>
-		   <li> <strong>Deep Learning and Neural Networks II</strong> - Exercise<br>
-		   <li> <strong>Machine Learning: Unsupervised Techniques</strong> - Exercise<br>
-              </ul>
-            </td>
-          </tr>
-                     </td>
-          </tr>
-      </table>
-      
-      <!-- Activity -->
-      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-        <tr>
-            <td>
-        <heading>Activity</heading>
-          <tr>
-            <td>
-              
-              <ul>
-                  <li> <a href="https://iplab.dmi.unict.it/icvss2023/Home">International Computer Vision Summer School 2023</a><br>
-              </ul>
-            </td>
-          </tr>
-                     </td>
-          </tr>
-      </table>
-      
-      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-      <tr>
-        <td>
-        <br>
-        <p align="right">
-          <font size="2">
-          template from <a href="https://jonbarron.info/"><font size="2">Jon Barrion</font></a>
-          <!-- <br> -->
-          <!-- Last updated: Mar 2023 -->
-        </font>
-        </p>
-        </td>
-      </tr>
-      </table>
-        
+          <td>
+            <heading>Teaching</heading>
+            <ul>
+              <li><strong>Deep Learning and Neural Networks I</strong> - Exercise</li>
+              <li><strong>Machine Learning: Supervised Techniques</strong> - Exercise</li>
+              <li><strong>Deep Learning and Neural Networks II</strong> - Exercise</li>
+              <li><strong>Machine Learning: Unsupervised Techniques</strong> - Exercise</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody></table>
 
+      <!-- Activity -->
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+        <tr>
+          <td>
+            <heading>Activity</heading>
+            <ul>
+              <li><a href="https://iplab.dmi.unict.it/icvss2023/Home">International Computer Vision Summer School 2023</a></li>
+            </ul>
+          </td>
+        </tr>
+      </tbody></table>
+
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+        <tr>
+          <td>
+            <p style="text-align:right">
+              <small>Last updated: September 2026<br>
+              Template from <a href="https://jonbarron.info/">Jon Barron</a></small>
+            </p>
+          </td>
+        </tr>
+      </tbody></table>
       </td>
     </tr>
-  </table>
+  </tbody></table>
 </body>
-
 </html>
